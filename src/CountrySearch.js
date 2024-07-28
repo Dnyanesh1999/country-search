@@ -32,7 +32,6 @@ const CountrySearch = () => {
           <div key={country.cca3} className="countryCard">
             <img src={country.flags.png} alt={`${country.name.common} flag`} />
             <h2>{country.name.common}</h2>
-            <p>{country.name.common}</p>
           </div>
         ))}
       </div>
